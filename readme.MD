@@ -3,6 +3,9 @@
 
 Hello! And Welcome!
 
+
+
+
 This assignment is a way for us to assess that you're able to translate design into code and how you would normally structure your code and is part of our [job posting on The Hub](https://thehub.io/jobs/5f3e92784b57fc757f36b3f4).
 
 ## The assignment
