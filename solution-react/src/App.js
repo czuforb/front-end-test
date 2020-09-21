@@ -1,39 +1,43 @@
 import React from 'react';
 import './App.css';
-import Card from './Components/Card';
-import CardList from './Components/CardList';
-import ExtraSection from './Components/ExtraSection';
-import Feature from './Components/Feature';
-import Footer from './Components/Footer';
+
+
+
+// Components
 import Hero from './Components/Hero';
-import SectionContainer from './Components/SectionContainer';
+import Tile from './Components/Tile';
+import TilesList from './Components/TilesList';
+import HeroSecond from './Components/HeroSecond';
+import Banner from './Components/Banner';
+import ImageWide from './Components/ImageWide';
+import Footer from './Components/Footer';
+
+
+import data from './assets/data.json';
 
 function App() {
   return (
     <div className="App">
-      <SectionContainer>
-        <Hero />
-      </SectionContainer>
+        <Hero/>
+        <TilesList>
+            {data.tiles.map(tile => <Tile
+            title={tile.title}
+            author={tile.author}
+            date={tile.date}
+            image={tile.image}
+            alt={tile.alt}
+            type={tile.type}
+            href={tile.href}
+            />)}
+        </TilesList>
 
-      <SectionContainer>
-        <CardList>
-          <Card />
-          <Card />
-          <Card />
-        </CardList>
-      </SectionContainer>
+        <HeroSecond />
 
-      <SectionContainer>
-        <Feature />
-      </SectionContainer>
+        <Banner />
 
-      <SectionContainer>
-        <ExtraSection />
-      </SectionContainer>
+        <ImageWide />
 
-      <SectionContainer>
         <Footer />
-      </SectionContainer>
     </div>
   );
 }
