@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*,
+*::before,
+*::after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: 'articulatcf', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.App{
+  width:1400px;
+  margin:auto;
+}
+
+@font-face{
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCF-Medium.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCF-ExtraBold.ttf);
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCF-Heavy.ttf);
+  font-style: normal;
+  font-weight: 900;
 }

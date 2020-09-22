@@ -4,7 +4,7 @@ import './TilesList.css';
 
 const TilesList = ({children}) => {
     return (
-        <section class="tiles-list-container">
+        <section className="tiles-list-container">
             {children}
         </section>
     )
