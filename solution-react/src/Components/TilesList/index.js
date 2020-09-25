@@ -1,5 +1,5 @@
 import React from 'react';
-import './TilesList.css';
+import './TilesList.scss';
 
 
 const TilesList = ({children}) => {

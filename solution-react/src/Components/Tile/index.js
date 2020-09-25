@@ -1,6 +1,6 @@
 import React from 'react';
-import Arrow from './Arrow';
-import './Tile.css';
+import Arrow from '../SVG/Arrow';
+import './Tile.scss';
 
 const Tile = ({title,author,date,image,alt,type,href}) => {
     return (

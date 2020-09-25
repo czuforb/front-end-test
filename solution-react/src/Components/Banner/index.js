@@ -1,7 +1,7 @@
 import React from 'react';
-import Arrow from './Arrow';
-import ArrowLeft from './ArrowLeft';
-import './Banner.css';
+import Arrow from '../SVG/Arrow';
+import ArrowLeft from '../SVG/ArrowLeft';
+import './Banner.scss';
 
 const Banner = () => {
     return (

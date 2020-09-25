@@ -1,0 +1,123 @@
+.hero-second{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.hero-second__title{
+    margin-left:0;
+    padding:1rem;
+    font-size:5rem;
+    line-height: 80%;
+    font-weight: 600;
+    position: relative;
+}
+
+.hero-second__link{
+    padding:1rem;
+    display:block;
+    font-size:2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom:1rem;
+    width:auto;
+    color:black;
+}
+
+
+.hero-second__text{
+    padding:1rem;
+}
+
+.hero-second__title span:nth-of-type(1){
+    z-index:2;
+}
+
+.hero-second__line--1{
+    display:block;
+    position: absolute;
+    background-color: #7DF7FF;
+    width:20%;
+    right: 0;
+    top:-1.5rem;
+    height:1rem;
+    transform:rotate(-5deg) scale(5);
+    z-index:-10;
+}
+
+.hero-second__line--2{
+    display:block;
+    background-color: #7DF7FF;
+    width:100%;
+    top:-5rem;
+    height:.8rem;
+    transform:rotate(-8deg) scale(1.8);
+    z-index:1;
+}
+
+.hero-second__line--3{
+    display:block;
+    position: absolute;
+    background-color: #7DF7FF;
+    width:100%;
+    height:.8rem;
+    top:8rem;
+    transform:rotate(10deg) scale(5.2);
+    z-index:-9;
+}
+
+
+@media (min-width:900px) { 
+    .hero-second{
+        max-height:532px;
+    }
+    .hero-second__title{
+        padding:0;
+        margin-left:240px;
+        font-size:150px;
+        font-weight: 600;
+        position: relative;
+    }
+    
+    .hero-second__link{
+        display:block;
+        font-size:40px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-left:271px;
+        margin-bottom:1rem;
+        width:335px;
+        color:black;
+    }
+    
+    .hero-second__link span{
+        width:115px;
+        height:32px;
+    }
+    
+    
+    .hero-second__text{
+        width:574px;
+        margin-left:271px;
+        line-height: 1.32;
+        padding:0;
+    }
+
+
+    .hero-second__line--1{
+        height:1rem;
+        top:-80px;
+    }
+    
+
+    .hero-second__line--2{
+        height:1rem;
+        top:-80px;
+    }
+    
+    
+    .hero-second__line--3{
+        height:1rem;
+        top:170px;
+    }
+}

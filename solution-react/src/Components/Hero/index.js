@@ -1,12 +1,11 @@
 import React from 'react'
-import ArrowRight from './ArrowRight';
-import './Hero.css';
+import ArrowRight from '../SVG//ArrowRight';
+import './Hero.scss';
 
 const Hero = () => {
     return (
         <section>
             <div className="hero">
-
                 <h1 className="hero__title">
                     <span className="hero__line--1"></span>
                     <span>Master the <br/> front-</span>
@@ -23,11 +22,6 @@ const Hero = () => {
                     <ArrowRight />
                 </a>
             </div>
-
-
-
-
-
         </section>
     )
 }

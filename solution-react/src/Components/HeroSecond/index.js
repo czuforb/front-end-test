@@ -1,6 +1,6 @@
 import React from 'react'
-import Arrow from './Arrow'
-import './HeroSecond.css';
+import Arrow from '../SVG//Arrow'
+import './HeroSecond.scss';
 
 const HeroSecond = () => {
     return (
